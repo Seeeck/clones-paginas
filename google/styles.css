@@ -2,7 +2,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html,body {
+html,
+body {
     padding: 0px;
     margin: 0px;
     width: 100%;
@@ -17,6 +18,16 @@ html,body {
     text-decoration: underline;
 }
 
-#lupa{
-    color:#9aa0a6 !important;
+#lupa {
+    color: #9aa0a6 !important;
+}
+
+#inputSearch:focus-visible {
+    outline: none;
+    /* saca el ring nativo */
+    border-color: #dadce0;
+    /* tu color de borde */
+    box-shadow: none;
+    
+    /* por si un framework agrega sombras */
 }
